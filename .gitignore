@@ -1,0 +1,33 @@
+# R temporary files
+.Rhistory
+.RData
+.RDataTmp*
+.Rproj.user/
+
+# R package/check files
+.Rcheck/
+renv/library/
+renv/staging/
+
+# Raw cBioPortal data
+data/*.txt
+data/*.seg
+data/case_lists/
+data/*.rds
+data/*.RData
+data/*.Rda
+
+# Large/intermediate analysis objects
+results/**/*.rds
+results/**/*.RData
+results/**/*.Rda
+
+# Keep project documentation
+!data/README.md
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
